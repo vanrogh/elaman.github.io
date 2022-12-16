@@ -1,0 +1,690 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #EEEFF1;
+    width: 100%;
+}
+
+.navbar h1 {
+    color: #34547A;
+    cursor: pointer;
+    font-family: 'Revalia', sans-serif;
+}
+
+.navbar .nav-links .active a {
+    color: #34547A;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 611px;
+}
+
+.nav-links li a {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.nav-links li a:hover {
+    color: #34547A;
+}
+
+.first-screen {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEFF1;
+}
+
+.first-screen img{
+    width: 250px;
+    height: 180px;
+}
+
+.first-screen p {
+    color: #727272;
+    font-size: 16px;
+    width: 540px;
+    line-height: 26px;
+}
+
+.first-screen .button {
+    color: #fff;
+    background-color: #34547A;
+    padding: 15px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.first-screen .button:hover {
+    background-color: #00D5E4;
+    transition: .5s;
+}
+
+.first-screen .text {
+    margin-left: 100px;
+}
+
+.first-screen .text h2 {
+    padding-bottom: 40px;
+    font-size: 48px;
+}
+
+.first-screen .text p {
+    padding-bottom: 70px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.about-me h2 {
+    font-size: 32px;
+    padding: 40px 0;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    height: 67px;
+    margin-bottom: 50px;
+    color: #727272;
+}
+ 
+/* Projects */
+.projects {
+    background-color: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #fff;
+}
+
+.projects img {
+    height: 50px;
+}
+
+.projects .text {
+    margin: 0 25px 0 25px;
+}
+
+.projects .text h3 {
+    font-size: 21px;
+    height: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.projects .box {
+    display: flex;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .my-skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 450px;
+    margin: 100px 0;
+}
+
+.skills .my-skills img {
+    width: 500px;
+    height: 400px;
+}
+
+.skills .my-skills h2 {
+    font-size: 32px;
+    padding-bottom: 14px;
+}
+
+.skills .my-skills p {
+    padding-top: 10px;
+    color: #727272;
+}
+
+.skills .my-skills .progress-bar {
+    width: 440px;
+    height: 6px;
+}
+
+/* Video section */
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEFF1;
+    height: 850px;
+}
+
+.video-section .video-title {
+    width: 540px;
+    /* height: 147px; */
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+
+.video-section .video-title h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.video-section .video-title p {
+    color: #727272;
+    line-height: 26.25px;
+}
+
+.video-section .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    background-image: url(img/video.png);
+    background-position: center;
+    margin-bottom: 60px;
+}
+
+.video-section .video img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* Work */
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.work img {
+    width: 320px;
+    height: 320px;
+}
+
+/* Clients */
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.clients .banner {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 120px;
+}
+
+.clients .banner img {
+    width: 200px;
+    height: 100px;
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEFF1;
+    height: 700px;
+}
+
+.form .form-title {
+    width: 540px;
+    text-align: center;
+    margin: 60px 0 40px 0;
+}
+
+.form .form-title h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.form .form-title p {
+    color: #727272;
+    line-height: 26.25px;
+}
+
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 510px;
+}
+
+.form form input[type="text"] {
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 auto 16px;
+}
+
+.form form textarea {
+    width: 510px;
+    height: 175px;
+    padding: 10px;
+}
+
+.form form .form-btn {
+    background-color: #34547A;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin: 40px auto 0;
+    transition: .5s;
+}
+
+.form form .form-btn:hover {
+    background-color: #00D5E4;
+    transition: .5s;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #34547A;
+    height: 120px;
+    color: #fff;
+}
+
+.footer .text h3 {
+    font-size: 21px;
+}
+
+.footer .text p {
+    font-size: 13px;
+}
+
+.footer .socials a {
+    font-size: 32px;
+    padding: 0 10px;
+}
+
+/* RESPONSIVE WEB */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar h1 {
+        padding-bottom: 10px;
+        font-size: 28px;
+    }
+    .navbar .nav-links li a {
+        font-size: 14px;
+    }
+    .navbar .nav-links {
+        width: 480px;
+    }
+
+    /* First screen */
+    .first-screen img {
+        width: 180px;
+        height: 110px;
+    }
+    .first-screen .text h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .first-screen .text p {
+        width: 360px;
+        padding-bottom: 50px;
+    }
+    .first-screen .button {
+        padding: 14px;
+        font-size: 12px;
+    }
+    .first-screen .text {
+        margin-left: 60px;
+    }
+
+    /* Projects */
+    .projects img {
+        height: 30px;
+    }
+    .projects .text {
+        margin: 0 auto;
+    }
+    .projects .text h3 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .projects .text p {
+        font-size: 14px;
+        padding-right: 30px;
+    }
+    .projects .box {
+        display: block;
+        margin-left: 10px;
+    }
+
+    /* Skills */
+    .skills {
+        width: 768px;
+    }
+    .skills .my-skills {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 450px;
+        margin: 100px 0;
+    }
+    .skills .my-skills h2 {
+        font-size: 28px;
+        padding: 15px 0 10px 0;
+    }
+    .skills .my-skills p {
+        padding-top: 10px;
+    }
+    .skills .my-skills img {
+        width: 400px;
+        height: 300px;
+    }
+    .skills .my-skills .progress-bar {
+        width: 300px;
+    }
+
+    /* Video Section */
+    .video-section {
+        height: 680px;
+    }
+    .video-section .video-title {
+        width: 540px;
+        margin: 40px 0 30px 0;
+    }
+    .video-section .video-title h2 {
+        font-size: 28px;
+        padding-bottom: 12px;
+    }
+    .video-section .video {
+        width: 580px;
+        height: 350px;
+    }
+    .video-section .video img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Work */
+    .work {
+        justify-content: baseline;
+        padding-top: 20px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .work img {
+        width: 191px;
+        height: 191px;
+    }
+
+    /* Clients */
+    .clients {
+        margin: 40px;
+    }
+    .clients .banner {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 560px;
+        height: auto;
+    }
+    .clients .banner img {
+        width: 240px;
+        height: 140px;
+    }
+
+    /* Form */
+    .form {
+        height: 700px;
+    }
+    .form .form-title {
+        width: 540px;
+        margin: 50px 0 30px 0;
+    }
+    .form .form-title h2 {
+        font-size: 28px;
+        padding-bottom: 16px;
+    }
+    .form .form-title p {
+        line-height: 26.25px;
+    }
+    .form form {
+        width: 510px;
+    }
+
+    /* FOOTER */
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar h1 {
+        padding-bottom: 8px;
+        font-size: 24px;
+    }
+    .navbar .nav-links li a {
+        font-size: 12px;
+    }
+    .navbar .nav-links {
+        width: 340px;
+    }
+
+    /* First screen */
+    .first-screen {
+        height: 480px;
+    }
+    .first-screen img {
+        width: 150px;
+        height: 80px;
+        padding-left: 10px;
+    }
+    .first-screen .text h2 {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .first-screen .text p {
+        width: 200px;
+        padding-bottom: 30px;
+        padding-right: 10px;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+    .first-screen .button {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .first-screen .text {
+        margin-left: 40px;
+    }
+
+    .about-me {
+        height: 200px;
+    }
+    .about-me h2 {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+    .about-me p {
+        font-size: 12px;
+        line-height: 26px;
+        width: 320px;
+        height: 67px;
+        margin-bottom: 60px;
+    }
+
+    /* Projects */
+    .projects {
+        height: 180px;
+    }
+    .projects img {
+        height: 24px;
+    }
+    .projects .text {
+        margin: 0 auto;
+    }
+    .projects .text h3 {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+    .projects .text p {
+        font-size: 11px;
+        padding-right: 10px;
+    }
+    .projects .box {
+        display: block;
+        margin-left: 2px;
+    }
+
+    /* SKills */
+    .skills {
+        width: auto;
+    }
+    .skills .my-skills {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 400px;
+        margin: 60px 0;
+    }
+    .skills .my-skills h2 {
+        font-size: 28px;
+        padding: 13px 0 8px 0;
+    }
+    .skills .my-skills p {
+        padding-top: 8px;
+    }
+    .skills .my-skills img {
+        width: 300px;
+        height: 200px;
+    }
+    .skills .my-skills .progress-bar {
+        width: 220px;
+    }
+
+    /* Video Section */
+    .video-section {
+        height: 480px;
+    }
+    .video-section .video-title {
+        width: 340px;
+        margin: 30px 0 20px 0;
+    }
+    .video-section .video-title h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .video-section .video-title p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .video-section .video {
+        width: 330px;
+        height: 200px;
+    }
+    .video-section .video img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Work */
+    .work {
+        justify-content: baseline;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .work img {
+        width: 194px;
+        height: 194px;
+    }
+
+    /* Clients */
+    .clients {
+        margin: 20px;
+    }
+    .clients .banner {
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    .clients .banner img {
+        width: 200px;
+        height: 100px;
+    }
+
+    /* Form */
+    .form {
+        height: 700px;
+        font-size: 14px;
+    }
+    .form .form-title {
+        width: 320px;
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+    .form .form-title h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .form .form-title p {
+        line-height: 20px;
+    }
+    .form form {
+        width: 320px;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: 90px;
+    }
+    .footer .text h3 {
+        font-size: 18px;
+    }
+    .footer .text p {
+        font-size: 11px;
+    }
+    .footer .socials a {
+        font-size: 24px;
+        padding: 0 6px;
+    }
+
+}
+

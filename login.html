@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="loginFunc()">
+
+            <p>Имя</p>
+            <input type="text" name="username" id="username" placeholder="Введите ваше имя...">
+
+            <p>Пароль</p>
+            <input type="password" name="password" id="password" placeholder="Введите ваш пароль..."><br>
+<br>
+            <button type="submit">Войти</button>
+            
+        </form>
+        
+        <hr>
+        <p id="result">У вас нет Аккаунта? </p>
+        <form onsubmit="signup2()">
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
